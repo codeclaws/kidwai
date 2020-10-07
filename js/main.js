@@ -2,7 +2,7 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
-      $('.top-header').css({'background':'rgba(21, 34, 43, 0.85)'});
+      $('.top-header').css({'background':'#000'});
 
 
       $('.logo-centered').css({'margin':'-36px 0'});
