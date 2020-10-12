@@ -1,4 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+
+
 /* Show it is fixed to the top */
+
+
+
+
 .navbar-custom{
 background-color:'transparent';
 }
@@ -58,29 +66,30 @@ visibility: hidden;
   z-index: 9999;
 }
 
+.desc{
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  font-size:0.9em !important;
+}
+
 .mobile-header{
   display:none;
 }
 
 body{
-   
-  background-size: initial;
+  font-family: 'Chilanka', cursive;  background-size: initial;
   background-position: top left;
   background-repeat: repeat;
   background-image: url('../img/pattern.png')!important;
 }
 
-@font-face{
-  font-family:poppin-regular;
-  src:url('../fonts/Poppins/Poppins-Black.ttf')
-}
 
 .card-title{
-  font-family: rubik;
 
 }
 .modal-heading{
-  font-family: rubik;
   text-align: center;
   font-size: 24px;
 
@@ -144,12 +153,7 @@ body{
   right:0;
 }
 
-@font-face{
 
-  font-family:rubik;
-  src:url('../fonts/static/Rubik-Black.ttf')
-
-}
 
 .icon{
   height: 30px;
@@ -192,7 +196,6 @@ body{
 
 .heading{
   position:absolute;
-  font-family: rubik;
   color:white;  
   bottom:200px;
   left:0;
@@ -208,7 +211,6 @@ body{
     .nav-link{
       font-size: 20px;
       margin:0 70px;
-      font-family: poppin-regular;
     }
 
     .background-img{
